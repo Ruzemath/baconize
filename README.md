@@ -13,11 +13,11 @@ This C++ program translates text between English and Bacon's cipher. [Bacon's ci
 ```sh
 <executable> <input file> <-bc|-e> <output file> [-v]
 ```
-
+**English -> Bacon**
 ```sh
 ./baconize.exe englishInput.txt -bc englishOutput.txt
 ```
-
+**Bacon -> English**
 ```sh
 ./baconize.exe baconInput.txt -e baconOutput.txt
 ```
